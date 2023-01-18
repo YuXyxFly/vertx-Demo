@@ -23,6 +23,6 @@ public class MyFirstVerticle extends AbstractVerticle {
             //logger.info(Thread.currentThread().getName() + " is answering the req!");
            req.response().putHeader("content-type", "text/plain")
                    .end(Thread.currentThread().getName() + " is answering the req!");
-        }).listen(9090);
+        });
     }
 }
