@@ -29,7 +29,7 @@ public class WorkerVerticle extends AbstractVerticle {
             final JsonObject message = reply.body();
             System.out.println("Message: " + message.encode());
             try {
-                Thread.sleep(4000);
+                Thread.sleep(6000);
             } catch (InterruptedException e) {
             }
             reply.reply(new JsonObject().put("worker", "Worker Message"));

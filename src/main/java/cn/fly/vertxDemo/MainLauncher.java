@@ -4,7 +4,6 @@ import cn.fly.vertxDemo.start.Launcher;
 import cn.fly.vertxDemo.start.impl.ClusterLauncher;
 import cn.fly.vertxDemo.start.impl.SingleLauncher;
 import cn.fly.vertxDemo.verticle.AcceptorVerticle;
-import cn.fly.vertxDemo.verticle.MyFirstVerticle;
 import cn.fly.vertxDemo.verticle.WorkerVerticle;
 import io.vertx.core.DeploymentOptions;
 
